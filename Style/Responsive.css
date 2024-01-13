@@ -65,10 +65,12 @@
     {
         width: auto;
         left: 1rem;
+        top: 0px;
     }
     .products 
     {
         width: auto;
+        margin-top: 150px;
     }
     .women-jacket h1, 
     .men-jacket h1
