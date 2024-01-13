@@ -1,0 +1,180 @@
+@media screen and (max-width:576px)
+{
+    body
+    {
+        width: auto;
+        border: none;
+    }
+    header
+    {
+        width: auto;
+    }
+    .company
+    {
+        display: block;
+    }
+    .menu ul li
+    {
+        justify-content: center;
+        padding-right: 10px;
+    }
+    .banner
+    {
+        flex-direction: column-reverse;
+    }
+    .banner-text
+    {
+        width: 100%;
+    }
+    .banner-title
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    .banner-image
+    {
+        width: auto;
+        padding-left: 0px;
+        background-position: 100%;
+        padding-right:0px;
+    }
+    .banner-image img
+    {
+        width: 100%;
+        left: 45%;
+    }
+    .banner-text button
+    {
+        margin-left: 25px;
+    }
+    .F-products, .m-products
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+    .product-image
+    {
+        width: auto;
+        height: auto;
+        left: 0px;
+        padding: 0px 20px;
+        
+    }
+    .product-image img
+    {
+        width: auto;
+        left: 1rem;
+    }
+    .products 
+    {
+        width: auto;
+    }
+    .women-jacket h1, 
+    .men-jacket h1
+    {
+        text-align: center;
+    }
+    
+    .service
+    {
+        flex-direction: column-reverse;
+    }
+    .service-image img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .icon img
+    {
+        width: 100%;
+    }
+    .card
+    {
+        flex-direction: column;
+        width: auto;
+    }
+    .text
+    {
+        width: auto;
+    }
+    .text h4,
+    .text p 
+    {
+        text-align: center;
+    }
+    footer 
+    {
+        margin: 0;
+        height: auto;
+        border-radius: 10px;
+    }
+    footer  h4
+    {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 992px)
+{
+    
+    body
+    {
+        width: auto;
+        border: none;
+    }
+    header
+    {
+        width: auto;
+    }
+    .menu ul li
+    {
+        justify-content: center;
+        padding-right: 5px;
+    }
+    .products 
+    {
+        width: auto;
+    }
+    .women-jacket h1, 
+    .men-jacket h1
+    {
+        text-align: center;
+    }
+    .product-image
+    {
+        width: auto;
+        left: 5px;
+    }
+    .product-image img
+    {
+        width: 100%;
+        left: 0px;
+    }
+    .products 
+    {
+        width: auto;
+    }
+    .products h3
+    {
+        font-size: 20px;
+    }
+    .products p
+    {
+        font-size: 12px;
+    }
+    .price-button
+    {
+        left: 0px;
+    }
+
+
+    .service
+    {
+        flex-direction: column-reverse;
+    }
+    .card
+    {
+        margin-left: 100px;
+    }
+}
